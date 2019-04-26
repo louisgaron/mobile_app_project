@@ -1,0 +1,54 @@
+<!--
+  Generated template for the ContactUsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Get in touch with us</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+  <ion-item>
+    <ion-label color="primary">First Name</ion-label>
+    <ion-input placeholder="Text Input"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" fixed>Last Name</ion-label>
+    <ion-input type="Text Input" placeholder="Text Input"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" fixed>Telephone: </ion-label>
+    <ion-input type="number" placeholder="Telepehone Number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" stacked>Email</ion-label>
+    <ion-input type="email" placeholder="Email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label color="primary" floating>Questions</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-textarea placeholder="Enter a description"></ion-textarea>
+  </ion-item>
+</ion-list>
+  
+
+<button (click)="submit()" ion-button round>Submit</button>
+
+</ion-content>
+
+
